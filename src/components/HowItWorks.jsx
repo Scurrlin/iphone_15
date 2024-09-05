@@ -36,7 +36,7 @@ const HowItWorks = () => {
 
         <div className="flex flex-col items-center">
           <h2 className="hiw-title">
-            A17 Pro chip.
+            The A17 Pro chip.
             <br /> A monster win for gaming.
           </h2>
 
@@ -66,18 +66,18 @@ const HowItWorks = () => {
           <div className="hiw-text-container">
                 <div className="flex flex-1 justify-center flex-col">
                   <p className="hiw-text g_fadeIn">
-                    A17 Pro is an entirely new class of iPhone chip that delivers our {' '}
+                    Introducing the A17 Pro-a groundbreaking chip that delivers our {' '}
                     <span className="text-white">
-                      best graphic performance by far
-                    </span>.
+                      best graphic performance by far.
+                    </span>
                   </p>
-
+                  <br></br>
                   <p className="hiw-text g_fadeIn">
-                   Mobile {' '}
+                    Experience {' '}
                     <span className="text-white">
-                      games will look and feel so immersive
-                    </span>,
-                     with incredibly detailed environments and characters.
+                      mobile gaming like never before, {' '}
+                    </span>
+                    with ultra-detailed environments and lifelike characters.
                   </p>
                 </div>
               
@@ -85,7 +85,7 @@ const HowItWorks = () => {
               <div className="flex-1 flex justify-center flex-col g_fadeIn">
                 <p className="hiw-text">New</p>
                 <p className="hiw-bigtext">Pro-class GPU</p>
-                <p className="hiw-text">with 6 cores</p>
+                <p className="hiw-text">featuring 6 cores</p>
               </div>
               </div>
             </div>

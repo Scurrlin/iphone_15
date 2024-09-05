@@ -31,9 +31,9 @@ export const hightlightsSlides = [
   {
     id: 3,
     textLists: [
-      "iPhone 15 Pro Max features",
-      "the longest optical zoom",
-      "in an iPhone ever. Far out.",
+      "Our longest",
+      "optical zoom ever?",
+      "Far out.",
     ],
     video: highlightThirdVideo,
     videoDuration: 2,

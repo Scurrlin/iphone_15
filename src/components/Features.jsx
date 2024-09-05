@@ -64,21 +64,21 @@ const Features = () => {
               <div className="feature-text-container">
                 <div className="flex-1 flex-center">
                   <p className="feature-text g_text">
-                    iPhone 15 Pro is {' '}
+                    Meet the iPhone 15 Pro, {' '}
                     <span className="text-white">
-                      the first iPhone to feature an aerospace-grade titanium design
-                    </span>,
-                    using the same alloy that spacecrafts use for missions to Mars.
+                      the first to feature a design built with aerospace-grade titanium -{' '}
+                    </span>
+                    the same material trusted for interplanetary missions.
                   </p>
                 </div>
 
                 <div className="flex-1 flex-center">
                   <p className="feature-text g_text">
-                    Titanium has one of the best strength-to-weight ratios of any metal, making these our {' '}
+                    With titanium’s unmatched strength-to-weight ratio, this is our {' '}
                     <span className="text-white">
-                      lightest Pro models ever.
+                      lightest Pro model ever. {''}
                     </span>
-                    You'll notice the difference the moment you pick one up.
+                    You'll feel the difference the moment you pick one up.
                   </p>
                 </div>
 
