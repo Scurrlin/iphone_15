@@ -15,7 +15,7 @@ const Footer = () => {
             <span className="underline text-blue">
             other retailer
             </span>{' '}
-            near you. Or call 1800-My-APPLE.
+            near you. Or call 1800-MY-APPLE.
           </p>
           {/*<p className="font-semibold text-gray text-xs">
             Or call 1800-MY-APPLE.
