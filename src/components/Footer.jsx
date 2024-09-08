@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="py-5 sm:px-10 px-5">
       <div className="screen-max-width">
         <div>
-          <p className="font-semibold text-gray text-xs">
+          <p className="font-semibold text-gray text-xxs">
             More ways to shop: {' '}
             <span className="underline text-blue">
             Find an Apple Store
@@ -17,7 +17,7 @@ const Footer = () => {
             </span>{' '}
             near you. Or call 1800-MY-APPLE
           </p>
-          <p className="font-semibold text-gray text-xs">
+          <p className="font-semibold text-gray text-xxs">
             Or call 1800-MY-APPLE
           </p>
         </div>
