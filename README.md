@@ -10,3 +10,4 @@
 * ReactJS
 * ThreeJS
 * Tailwind CSS
+* Sentry
