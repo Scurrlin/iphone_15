@@ -8,4 +8,3 @@ A faithful recreation of Apple's iconic iPhone website!
 * ReactJS
 * ThreeJS
 * Tailwind CSS
-* Sentry
