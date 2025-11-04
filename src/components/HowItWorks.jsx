@@ -46,22 +46,24 @@ const HowItWorks = () => {
         </div>
 
         <div className="mt-10 md:mt-20 mb-14">
-          <div className="relative h-full flex-center">
-            <div className="overflow-hidden">
-              <img 
-                src={frameImg}
-                alt="frame"
-                className="bg-transparent relative z-10"
-              />
-            </div>
-            <div className="hiw-video">
+          <div className="flex-center">
+            <div className="relative">
+              <div className="overflow-hidden">
+                <img 
+                  src={frameImg}
+                  alt="frame"
+                  className="bg-transparent relative z-10"
+                />
+              </div>
+              <div className="hiw-video">
                 <video className="pointer-events-none" playsInline preload="none" muted autoPlay ref={videoRef}>
                   <source src={frameVideo} type="video/mp4" />
                 </video>
               </div>
+            </div>
           </div>
           <p className="text-gray font-semibold text-center mt-3">Honkai: Star Rail</p>
-          </div>
+        </div>
 
           <div className="hiw-text-container">
                 <div className="flex flex-1 justify-center flex-col">
