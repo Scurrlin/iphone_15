@@ -1,11 +1,24 @@
-import React, { useRef } from 'react'
-import { chipImg, frameImg, frameVideo } from '../utils'
+import React, { useRef, useState } from 'react'
+import { chipImg, frameImg, frameVideo, replayImg } from '../utils'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap';
 import { animateWithGsap } from '../utils/animations';
 
 const HowItWorks = () => {
   const videoRef = useRef();
+  const [showReplay, setShowReplay] = useState(false);
+
+  const handleVideoEnd = () => {
+    setShowReplay(true);
+  };
+
+  const handleReplay = () => {
+    if (videoRef.current) {
+      videoRef.current.currentTime = 0;
+      videoRef.current.play();
+      setShowReplay(false);
+    }
+  };
 
   useGSAP(() => {
     gsap.from('#chip', {
@@ -56,10 +69,26 @@ const HowItWorks = () => {
                 />
               </div>
               <div className="hiw-video">
-                <video className="pointer-events-none" playsInline preload="none" muted autoPlay ref={videoRef}>
+                <video 
+                  className="pointer-events-none" 
+                  playsInline 
+                  preload="none" 
+                  muted 
+                  autoPlay 
+                  ref={videoRef}
+                  onEnded={handleVideoEnd}
+                >
                   <source src={frameVideo} type="video/mp4" />
                 </video>
               </div>
+              {showReplay && (
+                <button
+                  onClick={handleReplay}
+                  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 p-3 rounded-full bg-black backdrop-blur flex items-center justify-center cursor-pointer z-[100]"
+                >
+                  <img src={replayImg} alt="replay" className="w-10 h-10" />
+                </button>
+              )}
             </div>
           </div>
           <p className="text-gray font-semibold text-center mt-3">Honkai: Star Rail</p>
