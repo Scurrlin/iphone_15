@@ -42,8 +42,11 @@ const Hero = () => {
         id="cta"
         className="flex flex-col items-center opacity-0 translate-y-20"
       >
-        <a href="#highlights" className="btn">Buy</a>
+        <a className="btn cursor-pointer">Buy</a>
         <p className="font-normal text-xl">From $999 or $41.62/mo for 24 mo.</p>
+        <br />
+        <p className="font-normal text-xl px-6 md:px-12 max-w-4xl text-center">
+          <strong>Disclaimer: </strong>This website is a non-commerical replica and is not affiliated with Apple Inc.</p>
       </div>
     </section>
   )
