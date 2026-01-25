@@ -5,6 +5,6 @@ A faithful [replica](https://iphonereplica.seancurrlin.com/) of Apple's iconic i
 
 ## Technologies Used
 * GSAP
-* ReactJS
-* ThreeJS
+* React.js
+* Three.js
 * Tailwind CSS
